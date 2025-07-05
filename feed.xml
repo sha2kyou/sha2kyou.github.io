@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>FutureNotFound</title>
+  
+  
+  <link href="https://blog.tr1ck.cn/feed.xml" rel="self"/>
+  
+  <link href="https://blog.tr1ck.cn/"/>
+  <updated>2025-07-05T22:13:02.211Z</updated>
+  <id>https://blog.tr1ck.cn/</id>
+  
+  <author>
+    <name>maozhijie</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Wed Jun 29 2022 08:00:00 GMT+0000 (Coordinated Universal Time)</title>
+    <link href="https://blog.tr1ck.cn/2022/06/29/2022-06-29/"/>
+    <id>https://blog.tr1ck.cn/2022/06/29/2022-06-29/</id>
+    <published>2022-06-29T05:39:34.000Z</published>
+    <updated>2025-07-05T22:13:02.211Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
