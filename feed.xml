@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>sha2kyou RELEASE</title>
+  
+  
+  <link href="https://tr1ck.cn/feed.xml" rel="self"/>
+  
+  <link href="https://tr1ck.cn/"/>
+  <updated>2025-08-25T11:29:03.475Z</updated>
+  <id>https://tr1ck.cn/</id>
+  
+  <author>
+    <name>sha2kyou</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SideCalendar Privacy Policy</title>
+    <link href="https://tr1ck.cn/2025/08/25/privacy-en/"/>
+    <id>https://tr1ck.cn/2025/08/25/privacy-en/</id>
+    <published>2025-08-25T08:36:04.000Z</published>
+    <updated>2025-08-25T11:29:03.475Z</updated>
+    
+    <content type="html"><![CDATA[<p>SideCalendar Privacy Policy</p><p>This Privacy Policy describes how the SideCalendar application (“the App”) handles your<br>information. SideCalendar is a macOS menu bar application designed to display events and<br>information from various sources (such as Calendar, Reminders, RSS, GitHub Star) in a sidebar<br>timeline.</p><ol><li>Data Collection and Use</li></ol><p>The core principle of SideCalendar is to protect your privacy. The App itself does not<br>collect, store, or transmit any personal user data to external servers. All data processing<br>and display occur locally on your device.</p><ul><li>Local Data Processing: The App primarily processes and displays information locally on your<br>device. This means your events, reminders, RSS content, and GitHub data are not sent to any<br>external servers by SideCalendar.</li><li>System Calendar and Reminders Integration: The App locally accesses data from your macOS<br>System Calendar and Reminders to display within the App. This data is used solely for display<br>on your device and is not transmitted externally.</li><li>RSS Feed Integration: RSS Feed URLs provided by you are used to fetch content locally, which<br>is then displayed within the App. SideCalendar does not send any RSS feed data to external<br>servers.</li><li>GitHub Integration:<ul><li>If you choose to provide a GitHub Personal Access Token, this token is securely stored<br>locally in your device’s Keychain, solely for accessing your GitHub data via the GitHub<br>API. SideCalendar does not transmit your GitHub token externally.</li><li>GitHub data (including Stars, Pull Requests, and Events) is fetched directly from the<br>GitHub API and processed/displayed locally. This data is not stored on SideCalendar’s<br>servers or transmitted externally.</li></ul></li><li>User Settings: Your application preferences and configurations (e.g., plugin enabled states,<br>refresh intervals, timeline position) are securely stored on your local device using the macOS<br>UserDefaults mechanism.</li></ul><ol start="2"><li>Third-Party Services</li></ol><p>The App integrates with the following third-party services, and their respective privacy policies<br>govern their data handling practices:</p><ul><li>Apple Services: The App utilizes Apple’s system services, including macOS Calendar, Reminders,<br>Keychain, and UserDefaults. Please refer to Apple’s privacy policy for information on how<br>they handle your data.</li><li>GitHub: If you use the GitHub integration features, the App accesses your GitHub data via the<br>GitHub API. Please refer to GitHub’s privacy policy for information on how they handle your<br>data.</li></ul><ol start="3"><li>Data Retention</li></ol><p>All data processed and displayed by SideCalendar is retained on your local device for as long<br>as the App is installed and you choose to keep the data. Upon uninstallation of the App, all<br>locally stored data and settings will be removed.</p><ol start="4"><li>Data Security</li></ol><p>We are committed to the security of your information. All data processing occurs locally, and<br>sensitive information (such as GitHub tokens) is securely stored using the macOS Keychain,<br>minimizing the risk of data breaches.</p><ol start="5"><li>Changes to This Privacy Policy</li></ol><p>We may update this Privacy Policy from time to time. Any changes will be effective upon<br>posting the new Privacy Policy on this page. You are advised to review this Privacy Policy<br>periodically for any changes.</p><ol start="6"><li>Contact Us</li></ol><p>If you have any questions about this Privacy Policy, please contact us:</p><ul><li>Email: <a href="mailto:sha2kyou@outlook.com">sha2kyou@outlook.com</a></li><li>GitHub Issues: <a href="https://github.com/sha2kyou/SideCalendar/issues">https://github.com/sha2kyou/SideCalendar/issues</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;SideCalendar Privacy Policy&lt;/p&gt;
+&lt;p&gt;This Privacy Policy describes how the SideCalendar application (“the App”) handles your&lt;br&gt;
+informatio</summary>
+      
+    
+    
+    
+    <category term="SideCalendar" scheme="https://tr1ck.cn/categories/SideCalendar/"/>
+    
+    
+    <category term="SideCalendar" scheme="https://tr1ck.cn/tags/SideCalendar/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SideCalendar 隐私政策</title>
+    <link href="https://tr1ck.cn/2025/08/25/privacy-zh/"/>
+    <id>https://tr1ck.cn/2025/08/25/privacy-zh/</id>
+    <published>2025-08-25T08:36:04.000Z</published>
+    <updated>2025-08-25T11:29:03.475Z</updated>
+    
+    <content type="html"><![CDATA[<p>SideCalendar 隐私政策</p><p>本隐私政策描述了 SideCalendar 应用程序（“本应用”）如何处理您的信息。SideCalendar 是一款 macOS<br>菜单栏应用程序，旨在通过侧边栏时间线展示来自不同来源（如日历、提醒事项、RSS、GitHub<br>Star）的事件和信息。</p><ol><li>数据收集与使用</li></ol><p>SideCalendar<br>的核心原则是保护您的隐私。本应用本身不收集、存储或向外部服务器传输任何个人用户数据。<br>所有数据处理和显示均在您的本地设备上进行。</p><ul><li>本地数据处理： 本应用主要在您的设备上本地处理和显示信息。这意味着您的事件、提醒事项、RSS<br>内容和 GitHub 数据不会被发送到 SideCalendar 的任何外部服务器。</li><li>系统日历与提醒事项集成： 本应用会本地访问您 macOS 系统日历和提醒事项中的数据，以便在应用内显<br>示。这些数据仅用于在您的设备上显示，不会被传输到外部。</li><li>RSS Feed 集成： 您提供的 RSS Feed URL 用于本地获取内容，并在应用内显示。SideCalendar<br>不会将任何 RSS Feed 数据发送到外部服务器。</li><li>GitHub 集成：<ul><li>如果您选择提供 GitHub 个人访问令牌，该令牌将安全地存储在您设备的本地钥匙串中，仅用于通过<br>GitHub API 访问您的 GitHub 数据。SideCalendar 不会向外部传输您的 GitHub 令牌。</li><li>从 GitHub API 获取的 GitHub 数据（包括 Star、Pull Request<br>和事件）仅在您的设备上本地处理和显示。这些数据不会存储在 SideCalendar<br>的服务器上，也不会传输到外部。</li></ul></li><li>用户设置： 您的应用偏好设置和配置（例如插件启用状态、刷新间隔、时间线位置等）均使用 macOS<br>系统的 UserDefaults 机制安全地存储在您的本地设备上。</li></ul><ol start="2"><li>第三方服务</li></ol><p>本应用与以下第三方服务集成，这些服务的隐私政策适用于其各自的数据处理行为：</p><ul><li>Apple 服务： 本应用利用 Apple 的系统服务，包括 macOS 日历、提醒事项、钥匙串和<br>UserDefaults。请参阅 Apple 的隐私政策以了解他们如何处理您的数据。</li><li>GitHub： 如果您使用 GitHub 集成功能，本应用将通过 GitHub API 访问您的 GitHub 数据。请参阅<br>GitHub 的隐私政策以了解他们如何处理您的数据。</li></ul><ol start="3"><li>数据保留</li></ol><p>所有由 SideCalendar 处理和显示的数据都保留在您的本地设备上，只要您安装了本应用并选择保留这些数<br>据。当您卸载本应用时，所有本地存储的数据和设置都将被移除。</p><ol start="4"><li>数据安全</li></ol><p>我们致力于保护您的信息安全。所有数据处理均在本地进行，敏感信息（如 GitHub 令牌）通过 macOS<br>钥匙串进行安全存储，以最大程度地减少数据泄露的风险。</p><ol start="5"><li>本隐私政策的变更</li></ol><p>我们可能会不时更新本隐私政策。任何更改都将通过在本页面发布新的隐私政策来生效。建议您定期查看本<br>隐私政策以了解任何更改。</p><ol start="6"><li>联系我们</li></ol><p>如果您对本隐私政策有任何疑问，请通过以下方式联系我们：</p><ul><li>电子邮件：sha2kyou@outlook.com</li><li>GitHub Issues：<a href="https://github.com/sha2kyou/SideCalendar/issues">https://github.com/sha2kyou/SideCalendar/issues</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;SideCalendar 隐私政策&lt;/p&gt;
+&lt;p&gt;本隐私政策描述了 SideCalendar 应用程序（“本应用”）如何处理您的信息。SideCalendar 是一款 macOS&lt;br&gt;
+菜单栏应用程序，旨在通过侧边栏时间线展示来自不同来源（如日历、提醒事项、RSS、Git</summary>
+      
+    
+    
+    
+    <category term="SideCalendar" scheme="https://tr1ck.cn/categories/SideCalendar/"/>
+    
+    
+    <category term="SideCalendar" scheme="https://tr1ck.cn/tags/SideCalendar/"/>
+    
+  </entry>
+  
+</feed>
