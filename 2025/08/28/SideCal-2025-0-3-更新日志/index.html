@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="⏺ SideCal 2025.0.3 更新日志 新功能  iCloud 同步：新增跨设备配置同步，自动在多台 Mac 间保持设置一致 GitHub 功能整合：统一 Pull Request、Star、Release 等 GitHub 事件显示  安全优化  GitHub Personal Access Token 等敏感信息现存储在系统钥匙串中，确保数据安全 智能同步策略：仅同步非敏感配置，保护用">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SideCal 2025.0.3 更新日志">
+<meta property="og:url" content="https://tr1ck.cn/2025/08/28/SideCal-2025-0-3-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/index.html">
+<meta property="og:site_name" content="sha2kyou RELEASE">
+<meta property="og:description" content="⏺ SideCal 2025.0.3 更新日志 新功能  iCloud 同步：新增跨设备配置同步，自动在多台 Mac 间保持设置一致 GitHub 功能整合：统一 Pull Request、Star、Release 等 GitHub 事件显示  安全优化  GitHub Personal Access Token 等敏感信息现存储在系统钥匙串中，确保数据安全 智能同步策略：仅同步非敏感配置，保护用">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-08-28T07:13:01.000Z">
+<meta property="article:modified_time" content="2025-08-30T14:54:53.505Z">
+<meta property="article:author" content="sha2kyou">
+<meta property="article:tag" content="SideCalendar">
+<meta name="twitter:card" content="summary">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/avatar.png">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/avatar.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/avatar.png">
+          
+        
+    
+    <!-- title -->
+    <title>SideCal 2025.0.3 更新日志</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
+      <link rel="alternate" href="/true" title="sha2kyou RELEASE" type="application/atom+xml" />
+    
+    
+    <!-- Google Adsense -->
+    
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3515590255052815"
+     crossorigin="anonymous"></script>
+    
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        
+          <li><a href="/">Home</a></li>
+        
+          <li><a href="/archives/">Writing</a></li>
+        
+          <li><a href="/categories/">Category</a></li>
+        
+          <li><a href="/tags/">Tag</a></li>
+        
+          <li><a href="/about/">About</a></li>
+        
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="/2025/08/01/privacy-en/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <!-- <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li> -->
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="toc-div" class="toc-article" >
+        
+          <div id="toc">
+            
+          </div>
+        
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+        
+    <h1 class="posttitle" itemprop="name headline">
+        SideCal 2025.0.3 更新日志
+    </h1>
+
+
+
+        <div class="meta">
+            
+    <div class="postdate">
+      
+        <time datetime="2025-08-28T07:13:01.000Z" itemprop="datePublished">2025-08-28</time>
+        
+      
+    </div>
+
+
+            
+    <div class="article-category">
+<!--        <i class="fas fa-archive"></i>-->
+        <a class="category-link" href="/categories/SideCalendar/">SideCalendar</a>
+    </div>
+
+
+            
+    <div class="article-tag">
+<!--        <i class="fas fa-tag"></i>-->
+        <a class="tag-link-link" href="/tags/SideCalendar/" rel="tag">SideCalendar</a>
+    </div>
+
+
+            
+    <div class="article-count">
+        <span id="/2025/08/28/SideCal-2025-0-3-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/" class="leancloud_visitors" data-flag-title="SideCal 2025.0.3 更新日志">
+            <span class="post-meta-item-text">Visitor</span>
+            <span class="leancloud-visitors-count">0</span>
+        </span>
+    </div>
+
+            
+    <div class="wordcount-symbols">
+      
+        <span>Symbols</span>
+        <span>316</span>
+      
+    </div>
+    <div class="wordcount-time">
+      
+        <span>Time</span>
+        <span>1 Minutes</span>
+      
+    </div>
+
+
+        </div>
+    </header>
+    
+
+    <div class="content" itemprop="articleBody">
+        
+        
+    
+    
+
+        <p>⏺ SideCal 2025.0.3 更新日志</p>
+<p>新功能</p>
+<ul>
+<li>iCloud 同步：新增跨设备配置同步，自动在多台 Mac 间保持设置一致</li>
+<li>GitHub 功能整合：统一 Pull Request、Star、Release 等 GitHub 事件显示</li>
+</ul>
+<p>安全优化</p>
+<ul>
+<li>GitHub Personal Access Token 等敏感信息现存储在系统钥匙串中，确保数据安全</li>
+<li>智能同步策略：仅同步非敏感配置，保护用户隐私</li>
+</ul>
+<p>问题修复</p>
+<ul>
+<li>修复分页切换时气泡组件尺寸异常的渲染问题</li>
+<li>解决屏幕解锁后数据不刷新的问题</li>
+<li>限制设置窗口重复打开，提升界面体验</li>
+</ul>
+<p>性能提升</p>
+<ul>
+<li>基于时间戳的智能冲突解决，确保多设备数据一致性</li>
+<li>优化事件合并算法，减少重复显示</li>
+<li>改进界面响应速度和整体稳定性</li>
+</ul>
+<p>这个版本主要聚焦于多设备协作体验和数据安全性的提升。</p>
+
+        
+    </div>
+    
+</article>
+
+<div class="pagination-index">
+    
+        <hr/>
+        
+        
+            <a style="float:right;" href="/2025/08/01/privacy-en/">SideCalendar Privacy Policy<i class="fas fa-angle-right"></i>
+            </a>
+        
+    
+</div>
+
+    
+    <hr/>
+    <button class="blog-post-comments-btn" onclick="show_posts_comments()">Show Comments</button>
+    <div class="blog-post-comments" style="display: none">
+        <div id="valine_comments"></div>
+    </div>
+    <script type="text/javascript">
+        function show_posts_comments() {
+            $(".blog-post-comments").show();
+            $(".blog-post-comments-btn").hide();
+        }
+    </script>
+    <hr/>
+    
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+        
+          <li><a href="/">Home</a></li>
+        
+          <li><a href="/archives/">Writing</a></li>
+        
+          <li><a href="/categories/">Category</a></li>
+        
+          <li><a href="/tags/">Tag</a></li>
+        
+          <li><a href="/about/">About</a></li>
+        
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://tr1ck.cn/2025/08/28/SideCal-2025-0-3-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://tr1ck.cn/2025/08/28/SideCal-2025-0-3-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/&text=SideCal 2025.0.3 更新日志"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://tr1ck.cn/2025/08/28/SideCal-2025-0-3-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/&title=SideCal 2025.0.3 更新日志"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://tr1ck.cn/2025/08/28/SideCal-2025-0-3-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/&is_video=false&description=SideCal 2025.0.3 更新日志"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=SideCal 2025.0.3 更新日志&body=Check out this article: https://tr1ck.cn/2025/08/28/SideCal-2025-0-3-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://tr1ck.cn/2025/08/28/SideCal-2025-0-3-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/&title=SideCal 2025.0.3 更新日志"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://tr1ck.cn/2025/08/28/SideCal-2025-0-3-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/&title=SideCal 2025.0.3 更新日志"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://tr1ck.cn/2025/08/28/SideCal-2025-0-3-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/&title=SideCal 2025.0.3 更新日志"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://tr1ck.cn/2025/08/28/SideCal-2025-0-3-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/&title=SideCal 2025.0.3 更新日志"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://tr1ck.cn/2025/08/28/SideCal-2025-0-3-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/&name=SideCal 2025.0.3 更新日志&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://tr1ck.cn/2025/08/28/SideCal-2025-0-3-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/&t=SideCal 2025.0.3 更新日志"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer"style="display: none">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+<!--        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>-->
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer-extend">
+  
+    <div class="footer-left">
+      
+        <a target="_blank" rel="noopener" href='http://beian.miit.gov.cn/'>陕ICP备2021008394号-2</a>
+        
+      
+        <a target="_blank" rel="noopener" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61011302001259">陕公网安备 61011302001259号</a>
+      
+    </div>
+  
+</footer>
+<footer id="footer">
+  <div class="footer-left">
+    &copy;
+    
+    
+    2018-2025
+    sha2kyou
+    
+    <!-- Powered by
+    <a href="https://hexo.io/" target="_blank" rel="nofollow">hexo</a> -->
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/categories/">Category</a></li>
+         
+          <li><a href="/tags/">Tag</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/search/">Search</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+
+    <!-- jquery -->
+
+<script src="/lib/jquery/jquery.min.js"></script>
+
+
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
+
+    
+<script src="/lib/clipboard/clipboard.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            // copy-btn HTML
+            var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+            btn += '<i class="far fa-clone"></i>';
+            btn += '</span>';
+            // mount it!
+            $(".highlight table").before(btn);
+            var clip = new ClipboardJS('.btn-copy', {
+                text: function (trigger) {
+                    return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str, it) => str + it.innerText + '\n', '')
+                }
+            });
+            clip.on('success', function (e) {
+                e.trigger.setAttribute('aria-label', "Copied!");
+                e.clearSelection();
+            })
+        })
+    </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+    <script type="text/javascript">
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?f01b82d682e8b8c168d7e14cb993e170";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+<!-- Valine Comments -->
+
+    
+<script src="/lib/valine/Valine.min.js"></script>
+
+    <script type="text/javascript">
+        new Valine({
+            el: '#valine_comments',
+            appId: 'PYGSxQwogW3Qi5wie5gbK6tt-gzGzoHsz',
+            appKey: 'VgamBFH9CKcnxsD6oM4Ijm0n',
+            placeholder: 'Want to say something to the author?',
+            avatar: 'identicon',
+            pageSize: '8',
+            lang: 'en-us',
+            visitor: 'true',
+            recordIP: 'true',
+            enableQQ: 'true',
+            meta: ['nick', 'mail', 'link'],
+            requiredFields: ['nick', 'mail'],
+        });
+    </script>
+
+</body>
+</html>
