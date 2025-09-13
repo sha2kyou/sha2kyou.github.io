@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>sha2kyou RELEASE</title>
+  
+  
+  <link href="https://tr1ck.cn/feed.xml" rel="self"/>
+  
+  <link href="https://tr1ck.cn/"/>
+  <updated>2025-09-13T12:34:20.211Z</updated>
+  <id>https://tr1ck.cn/</id>
+  
+  <author>
+    <name>sha2kyou</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SideCalendar: Keyboard-Centric Three-Layer Interaction Design</title>
+    <link href="https://tr1ck.cn/2025/09/11/keyboard-centric-three-layer-interaction-design-en/"/>
+    <id>https://tr1ck.cn/2025/09/11/keyboard-centric-three-layer-interaction-design-en/</id>
+    <published>2025-09-11T06:30:00.000Z</published>
+    <updated>2025-09-13T12:34:20.211Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>While SideCalendar offers equally powerful mouse operations, its heart and soul belong to the keyboard—the shortest path to peak efficiency and flow state.</p></blockquote><h2 id="Core-Philosophy-From-“Opening-Apps”-to-“Summoning-Tools”">Core Philosophy: From “Opening Apps” to “Summoning Tools”</h2><p>Traditional software interaction trains us to “open” applications. This process—moving the mouse, hunting for icons, clicking, waiting for windows to load—is itself a jarring interruption to our current workflow.</p><p>SideCalendar’s design philosophy challenges this paradigm. I believe excellent productivity tools shouldn’t be destinations you deliberately “visit,” but rather personal assistants you can “summon” at will. They should seamlessly integrate into your workflow, appearing instantly when needed and vanishing without trace when done, protecting your precious flow state above all else.</p><p>To realize this philosophy, I built a three-layer keyboard interaction model.</p><h2 id="Design-Practice-Three-Layer-Keyboard-Interaction-Model">Design Practice: Three-Layer Keyboard Interaction Model</h2><h3 id="Layer-One-Global-Layer-·-Omnipresent-Entry-Point">Layer One: Global Layer · Omnipresent Entry Point</h3><p><strong>Concept: Global Accessibility &amp; Transient Interaction</strong></p><p>This layer forms the foundation of my entire design, transforming the application from an isolated program into a transient system state. I deliberately abandoned Dock icons as the primary entry point to eliminate all unnecessary interaction steps.</p><ul><li><strong><code>⌥ + ⌘ + B</code> (customizable)</strong>: This is your singular “incantation” into SideCalendar’s world. Wherever you are, whatever you’re doing, this global shortcut instantly materializes the nearest event bubble to your current time. Press again, and it vanishes. Summon at will, dismiss at whim.</li><li><strong><code>Esc</code></strong>: As the universal “cancel/close” command, it closes any SideCalendar window, ensuring behavioral consistency.</li></ul><h3 id="Layer-Two-Navigation-Layer-·-Intuitive-Fluid-Exploration">Layer Two: Navigation Layer · Intuitive Fluid Exploration</h3><p><strong>Concept: Contextual Design &amp; Ergonomics</strong></p><p>When you summon the overlay and need to browse information, the navigation layer becomes “contextually activated.” These shortcuts only function within the application, ensuring no conflicts with your other software. Its core purpose is “exploration”—providing fluid browsing when you’re uncertain about information location.</p><p>I provide two functionally equivalent navigation key sets to accommodate different users’ muscle memory and usage scenarios.</p><ul><li><strong>Traditional Arrow Keys (<code>↑</code> <code>↓</code> <code>←</code> <code>→</code>)</strong>: Universal intuition, simple and clear.</li><li><strong><code>WASD</code> Keys</strong>: Specially designed for gamers and efficiency experts. This grants users <strong>single-handed operation freedom</strong>: when your right hand rests on the mouse or number pad, your left hand can naturally complete all navigation on <code>WASD</code>, achieving true “eyes on screen, hands on keys” for maximum operational efficiency.</li></ul><p><strong>Specific Operations:</strong></p><ul><li><strong>Event Movement (Vertical)</strong>: Use <code>↑</code> / <code>W</code> and <code>↓</code> / <code>S</code> to move between events, with seamless page penetration.</li><li><strong>Page Navigation (Horizontal)</strong>: Use <code>←</code> / <code>A</code> and <code>→</code> / <code>D</code> to flip between pages.</li><li><strong>Bubble Switching</strong>: Use <code>Tab</code> and <code>Shift + Tab</code> to jump between different event bubbles.</li></ul><h3 id="Layer-Three-Acceleration-Layer-·-Direct-Precision-Beyond-Navigation">Layer Three: Acceleration Layer · Direct Precision Beyond Navigation</h3><p><strong>Concept: Designed for Power Users, Providing the Shortest Path from Intent to Action</strong></p><p>If the navigation layer serves “exploration and confirmation,” then the acceleration layer serves “direct execution.” It offers power users who can predict information location the possibility of completely “eliminating navigation.”</p><ul><li><strong><code>⌥ + Number Keys</code> (1-9)</strong>: This is the acceleration layer’s essence. When the overlay appears, holding <code>Option</code> reveals numbered labels beside each event. Pressing <code>⌥ + number</code> <strong>instantly opens the corresponding event link without any movement or selection</strong>.</li></ul><p>This design consolidates “browse-select-execute” into one step, providing the shortest path from user intent to completed action.</p><h2 id="Conclusion-Quiet-Yet-Powerful-Personal-Assistant">Conclusion: Quiet Yet Powerful Personal Assistant</h2><p>SideCalendar’s three-layer keyboard interaction model—global layer for “summoning,” navigation layer for “exploration and confirmation,” acceleration layer for “direct precision beyond navigation”—collectively serves one core objective: providing ultimate operational efficiency without increasing cognitive load, safeguarding users’ precious flow state.</p><p>Through this design, SideCalendar transcends being a traditional application to become a truly integrated, responsive, quiet yet powerful personal assistant in your daily workflow.</p><h2 id="Progressive-Learning-Path">Progressive Learning Path</h2><p>I designed three learning stages ensuring anyone can progressively master this interaction system within hours:</p><h3 id="First-10-Minutes-Master-Basic-Summoning-Global-Layer">First 10 Minutes: Master Basic Summoning (Global Layer)</h3><ul><li>Remember just one shortcut: <code>⌥ + ⌘ + B</code></li><li>Develop the “summon-view-dismiss” basic flow</li><li>Establish “appear only when needed” usage habits</li></ul><h3 id="First-Hour-Fluid-Navigation-Browsing-Navigation-Layer">First Hour: Fluid Navigation Browsing (Navigation Layer)</h3><ul><li>Start using arrow keys to move between events</li><li>Try <code>Tab</code> to jump between event bubbles</li><li>Learn to use space or enter to jump to selected events</li><li>Choose between traditional arrows or WASD based on personal preference</li></ul><h3 id="Hours-2-3-Direct-Precision-Acceleration-Layer">Hours 2-3: Direct Precision (Acceleration Layer)</h3><ul><li>Learn <code>⌥ + number</code> direct access functionality</li><li>Observe your common event patterns</li><li>Gradually reduce navigation steps, boost operational efficiency</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;While SideCalendar offers equally powerful mouse operations, its heart and soul belong to the keyboard—the shortest path to </summary>
+      
+    
+    
+    
+    <category term="SideCalendar" scheme="https://tr1ck.cn/categories/SideCalendar/"/>
+    
+    
+    <category term="UX" scheme="https://tr1ck.cn/tags/UX/"/>
+    
+    <category term="keyboard" scheme="https://tr1ck.cn/tags/keyboard/"/>
+    
+    <category term="interaction-design" scheme="https://tr1ck.cn/tags/interaction-design/"/>
+    
+    <category term="productivity" scheme="https://tr1ck.cn/tags/productivity/"/>
+    
+    <category term="flow-state" scheme="https://tr1ck.cn/tags/flow-state/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>以键盘为核心：SideCalendar 三层键盘交互的设计思考</title>
+    <link href="https://tr1ck.cn/2025/09/11/keyboard-centric-three-layer-interaction-design/"/>
+    <id>https://tr1ck.cn/2025/09/11/keyboard-centric-three-layer-interaction-design/</id>
+    <published>2025-09-11T06:30:00.000Z</published>
+    <updated>2025-09-13T12:34:20.211Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>尽管 SideCalendar 提供了同样强大的鼠标操作模式，但它的核心与灵魂，始终属于键盘——那条通往极致效率与&quot;心流&quot;境界的最短路径。</p></blockquote><h2 id="核心哲学：从-打开应用-到-召唤工具">核心哲学：从&quot;打开应用&quot;到&quot;召唤工具&quot;</h2><p>在传统软件交互中，我们习惯于&quot;打开&quot;一个应用程序。这个过程——移动鼠标、寻找图标、点击、等待窗口加载——本身就是一次对当前工作流的粗暴打断。</p><p>SideCalendar 的设计哲学旨在挑战这一模式。我认为，优秀的生产力工具不应是一个需要特意&quot;访问&quot;的目的地，而应是一个可以被随时&quot;召唤&quot;的个人助理。它无缝融入您的工作流，在需要时立即出现，在完成后瞬间消失，最大限度地守护您宝贵的&quot;心流&quot;（Flow State）。</p><p>为实现这一哲学，我构建了三层键盘交互模型。</p><h2 id="设计实践：三层键盘交互模型">设计实践：三层键盘交互模型</h2><h3 id="第一层：全局层-·-无处不在的入口">第一层：全局层 · 无处不在的入口</h3><p><strong>理念：全局可达性 (Global Accessibility) 与瞬时交互 (Transient Interaction)</strong></p><p>这一层是整个设计的基石，它将应用从一个孤立的程序，变成系统的一个瞬时状态。我摒弃了 Dock 栏图标作为主要入口，目的就是为了消除一切不必要的操作步骤。</p><ul><li><strong><code>⌥ + ⌘ + B</code> (可自定义)</strong>：这是您进入 SideCalendar 世界的唯一&quot;咒语&quot;。无论您身在何处，只需按下这个全局快捷键，距离当前时间最近的事件气泡便会即刻出现。再次按下，它便会消失。召之即来，挥之即去。</li><li><strong><code>Esc</code></strong>：作为通用的&quot;取消/关闭&quot;指令，它同样能关闭任何 SideCalendar 窗口，确保了行为的一致性。</li></ul><h3 id="第二层：导航层-·-直觉流畅的探索">第二层：导航层 · 直觉流畅的探索</h3><p><strong>理念：情境化设计 (Contextual Design) 与人体工学 (Ergonomics)</strong></p><p>当您召唤出浮窗，需要浏览信息时，导航层便会被&quot;情境激活&quot;。这套快捷键仅在应用内部生效，确保不会与您的其他软件产生冲突。它的核心是&quot;探索&quot;——在您不确定信息具体位置时，提供流畅的浏览体验。</p><p>我提供两套功能完全等价的导航键位，以适应不同用户的肌肉记忆与使用场景。</p><ul><li><strong>传统方向键 (<code>↑</code> <code>↓</code> <code>←</code> <code>→</code>)</strong>：符合通用直觉，简单易懂。</li><li><strong><code>WASD</code> 键</strong>：这是我为游戏玩家和效率专家特意设计的。它赋予了用户 <strong>单手操作的自由</strong>：当您的右手停留在鼠标或数字键上时，左手可以自然地在 <code>WASD</code> 上完成所有导航，实现真正的&quot;眼不离屏，手不离键&quot;，最大化您的操作效率。</li></ul><p><strong>具体操作：</strong></p><ul><li><strong>事件移动 (纵向)</strong>：使用 <code>↑</code> / <code>W</code> 和 <code>↓</code> / <code>S</code> 在事件间移动，可穿透翻页。</li><li><strong>页面翻页 (横向)</strong>：使用 <code>←</code> / <code>A</code> 和 <code>→</code> / <code>D</code> 在页面间翻页。</li><li><strong>气泡切换</strong>：使用 <code>Tab</code> 和 <code>Shift + Tab</code> 在不同的事件气泡之间跳转。</li></ul><h3 id="第三层：加速层-·-消除导航的精准直达">第三层：加速层 · 消除导航的精准直达</h3><p><strong>理念：为专家用户设计，提供从&quot;意图&quot;到&quot;行动&quot;的最短路径</strong></p><p>如果说导航层是为&quot;探索与确认&quot;而生，那么加速层就是为&quot;直接执行&quot;而设计。它为那些对信息位置有预判的专家用户，提供了彻底&quot;消除导航&quot;的可能性。</p><ul><li><strong><code>⌥ + 数字键</code> (1-9)</strong>：这便是加速层的精髓。当浮窗出现时，按住 <code>Option</code> 键，每个事件旁都会显示一个数字编号。此时，按下 <code>⌥ + 数字</code>，即可 <strong>立即打开对应事件的链接，无需任何移动和选中</strong>。</li></ul><p>这个设计，是将&quot;浏览-选中-执行&quot;三步合一，提供了从用户产生意图到完成操作的最短路径。</p><h2 id="结论：安静而强大的个人助理">结论：安静而强大的个人助理</h2><p>SideCalendar 的三层键盘交互模型——全局层负责&quot;召唤&quot;，导航层负责&quot;探索与确认&quot;，加速层负责&quot;消除导航的精准直达&quot;——共同服务于一个核心目标：在不增加用户认知负担的前提下，提供极致的操作效率，守护用户宝贵的&quot;心流&quot;。</p><p>通过这种设计，SideCalendar 不再是一个传统的应用程序，而是一个真正融入您日常工作流、响应迅速、安静而强大的个人助理。</p><h2 id="渐进式学习路径">渐进式学习路径</h2><p>我为用户设计了三个学习阶段，确保任何人都能在数小时内逐步掌握这套交互系统：</p><h3 id="前10分钟：掌握基础召唤（全局层）">前10分钟：掌握基础召唤（全局层）</h3><ul><li>只需记住 <code>⌥ + ⌘ + B</code> 这一个快捷键</li><li>习惯&quot;召唤-查看-关闭&quot;的基本流程</li><li>建立&quot;需要时才出现&quot;的使用习惯</li></ul><h3 id="第1小时：流畅导航浏览（导航层）">第1小时：流畅导航浏览（导航层）</h3><ul><li>开始使用方向键在事件间移动</li><li>尝试用 <code>Tab</code> 在事件气泡间跳转</li><li>学习用空格或回车跳转到选中的事件</li><li>根据个人习惯选择传统方向键或 WASD</li></ul><h3 id="第2-3小时：精准直达（加速层）">第2-3小时：精准直达（加速层）</h3><ul><li>学习 <code>⌥ + 数字</code> 的直达功能</li><li>观察自己的常用事件模式</li><li>逐步减少导航步骤，提升操作效率</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;尽管 SideCalendar 提供了同样强大的鼠标操作模式，但它的核心与灵魂，始终属于键盘——那条通往极致效率与&amp;quot;心流&amp;quot;境界的最短路径。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;核心哲学：从-打开应用-到-召唤工具</summary>
+      
+    
+    
+    
+    <category term="SideCalendar" scheme="https://tr1ck.cn/categories/SideCalendar/"/>
+    
+    
+    <category term="UX" scheme="https://tr1ck.cn/tags/UX/"/>
+    
+    <category term="keyboard" scheme="https://tr1ck.cn/tags/keyboard/"/>
+    
+    <category term="interaction-design" scheme="https://tr1ck.cn/tags/interaction-design/"/>
+    
+    <category term="productivity" scheme="https://tr1ck.cn/tags/productivity/"/>
+    
+    <category term="flow-state" scheme="https://tr1ck.cn/tags/flow-state/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>屏幕边缘时间流：环境感知式日程管理</title>
+    <link href="https://tr1ck.cn/2025/09/11/ambient-schedule-awareness-zh/"/>
+    <id>https://tr1ck.cn/2025/09/11/ambient-schedule-awareness-zh/</id>
+    <published>2025-09-11T00:32:17.000Z</published>
+    <updated>2025-09-13T12:34:20.211Z</updated>
+    
+    <content type="html"><![CDATA[<p>传统日历将你困在网格中。你失去了时间流动的感觉，冲突很难发现，直到你深入钻研。这里有一种不同的方法。</p><p>我构建了一个连续的时间可视化系统，它生活在你的屏幕边缘。事件锚定在流动的时间线上，而不是僵硬的网格中。关键洞察：将时间视为流，而不是网格。</p><p><strong>技术方法：</strong></p><ul><li>屏幕边缘渲染，保持在你的工作流之外</li><li>颜色编码事件，重叠部分采用渐变混合</li><li>实时视觉密度显示忙碌与空闲时段</li><li>JavaScript 插件系统支持自定义数据源</li></ul><p><img src="https://oss.tr1ck.cn/image/20250911/NZ58CI.png" alt="image1"><br><img src="https://oss.tr1ck.cn/image/20250911/iv8Jqt.png" alt="image2"></p><p><strong>实现挑战：</strong></p><ul><li>重叠事件的颜色混合算法</li><li>实时更新的性能优化</li><li>平衡信息密度与视觉清晰度</li><li>设计直观交互以最小化中断</li></ul><p>JS 插件系统至关重要。你可以从任何地方提取数据——Google 日历、Todoist、GitHub issues、服务器监控、构建状态。每个数据源在时间流中都有自己的颜色通道。</p><p><strong>良好效果：</strong></p><ul><li>周边感知，无需上下文切换</li><li>通过颜色强度立即检测冲突</li><li>从稀疏到重度安排的日程都能良好扩展</li></ul><p>仍在实验边缘情况，探索还有哪些其他数据流在这种格式中有意义。</p><p>很想听听你的想法：这种边缘时间流还能承载哪些其他类型的信息？你认为哪些功能是必不可少的？</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;传统日历将你困在网格中。你失去了时间流动的感觉，冲突很难发现，直到你深入钻研。这里有一种不同的方法。&lt;/p&gt;
+&lt;p&gt;我构建了一个连续的时间可视化系统，它生活在你的屏幕边缘。事件锚定在流动的时间线上，而不是僵硬的网格中。关键洞察：将时间视为流，而不是网格。&lt;/p&gt;
+&lt;p&gt;&lt;s</summary>
+      
+    
+    
+    
+    <category term="SideCalendar" scheme="https://tr1ck.cn/categories/SideCalendar/"/>
+    
+    
+    <category term="design" scheme="https://tr1ck.cn/tags/design/"/>
+    
+    <category term="visualization" scheme="https://tr1ck.cn/tags/visualization/"/>
+    
+    <category term="time-management" scheme="https://tr1ck.cn/tags/time-management/"/>
+    
+    <category term="UX" scheme="https://tr1ck.cn/tags/UX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ambient schedule awareness via screen-edge time flow</title>
+    <link href="https://tr1ck.cn/2025/09/11/ambient-schedule-awareness/"/>
+    <id>https://tr1ck.cn/2025/09/11/ambient-schedule-awareness/</id>
+    <published>2025-09-11T00:32:17.000Z</published>
+    <updated>2025-09-13T12:34:20.211Z</updated>
+    
+    <content type="html"><![CDATA[<p>Traditional calendars force you into grids. You lose the sense of time flow, and conflicts are hard to spot until you drill down. Here’s a different approach.</p><p>I built a continuous time visualization that lives at your screen edge. Events anchor to a flowing timeline instead of rigid cells. The key insight: treat time as a stream, not a grid.</p><p><strong>Technical approach:</strong></p><ul><li>Screen-edge rendering to stay out of your workflow</li><li>Color-coded events with gradient blending for overlaps</li><li>Real-time visual density shows busy vs. free periods</li><li>JavaScript plugin system for custom data sources</li></ul><p><img src="https://oss.tr1ck.cn/image/20250911/NZ58CI.png" alt="image1"><br><img src="https://oss.tr1ck.cn/image/20250911/iv8Jqt.png" alt="image2"></p><p><strong>Implementation challenges:</strong></p><ul><li>Color blending algorithms for overlapping events</li><li>Performance optimization for real-time updates</li><li>Balancing information density vs. visual clarity</li><li>Designing intuitive interactions for minimal interruption</li></ul><p>The JS plugin system was crucial. You can pull data from anywhere—Google Calendar, Todoist, GitHub issues, server monitoring, build status. Each source gets its own color channel in the time flow.</p><p><strong>What works well:</strong></p><ul><li>Peripheral awareness without context switching</li><li>Immediate conflict detection through color intensity</li><li>Scales from sparse to heavily-scheduled days</li></ul><p>Still experimenting with edge cases and exploring what other data streams make sense in this format.</p><p>Would love to hear your thoughts: what other types of information could this edge time flow carry? What features do you think would be essential?</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Traditional calendars force you into grids. You lose the sense of time flow, and conflicts are hard to spot until you drill down. Here’s </summary>
+      
+    
+    
+    
+    <category term="SideCalendar" scheme="https://tr1ck.cn/categories/SideCalendar/"/>
+    
+    
+    <category term="design" scheme="https://tr1ck.cn/tags/design/"/>
+    
+    <category term="visualization" scheme="https://tr1ck.cn/tags/visualization/"/>
+    
+    <category term="time-management" scheme="https://tr1ck.cn/tags/time-management/"/>
+    
+    <category term="UX" scheme="https://tr1ck.cn/tags/UX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SideCalendar Privacy Policy</title>
+    <link href="https://tr1ck.cn/2025/08/25/privacy-en/"/>
+    <id>https://tr1ck.cn/2025/08/25/privacy-en/</id>
+    <published>2025-08-25T08:36:04.000Z</published>
+    <updated>2025-09-13T12:34:20.211Z</updated>
+    
+    <content type="html"><![CDATA[<p>SideCalendar Privacy Policy</p><p>This Privacy Policy describes how the SideCalendar application (“the App”) handles your<br>information. SideCalendar is a macOS menu bar application designed to display events and<br>information from various sources (such as Calendar, Reminders, RSS, GitHub Star) in a sidebar<br>timeline.</p><ol><li>Data Collection and Use</li></ol><p>The core principle of SideCalendar is to protect your privacy. The App itself does not<br>collect, store, or transmit any personal user data to external servers. All data processing<br>and display occur locally on your device.</p><ul><li>Local Data Processing: The App primarily processes and displays information locally on your<br>device. This means your events, reminders, RSS content, and GitHub data are not sent to any<br>external servers by SideCalendar.</li><li>System Calendar and Reminders Integration: The App locally accesses data from your macOS<br>System Calendar and Reminders to display within the App. This data is used solely for display<br>on your device and is not transmitted externally.</li><li>RSS Feed Integration: RSS Feed URLs provided by you are used to fetch content locally, which<br>is then displayed within the App. SideCalendar does not send any RSS feed data to external<br>servers.</li><li>GitHub Integration:<ul><li>If you choose to provide a GitHub Personal Access Token, this token is securely stored<br>locally in your device’s Keychain, solely for accessing your GitHub data via the GitHub<br>API. SideCalendar does not transmit your GitHub token externally.</li><li>GitHub data (including Stars, Pull Requests, and Events) is fetched directly from the<br>GitHub API and processed/displayed locally. This data is not stored on SideCalendar’s<br>servers or transmitted externally.</li></ul></li><li>User Settings: Your application preferences and configurations (e.g., plugin enabled states,<br>refresh intervals, timeline position) are securely stored on your local device using the macOS<br>UserDefaults mechanism.</li></ul><ol start="2"><li>Third-Party Services</li></ol><p>The App integrates with the following third-party services, and their respective privacy policies<br>govern their data handling practices:</p><ul><li>Apple Services: The App utilizes Apple’s system services, including macOS Calendar, Reminders,<br>Keychain, and UserDefaults. Please refer to Apple’s privacy policy for information on how<br>they handle your data.</li><li>GitHub: If you use the GitHub integration features, the App accesses your GitHub data via the<br>GitHub API. Please refer to GitHub’s privacy policy for information on how they handle your<br>data.</li></ul><ol start="3"><li>Data Retention</li></ol><p>All data processed and displayed by SideCalendar is retained on your local device for as long<br>as the App is installed and you choose to keep the data. Upon uninstallation of the App, all<br>locally stored data and settings will be removed.</p><ol start="4"><li>Data Security</li></ol><p>We are committed to the security of your information. All data processing occurs locally, and<br>sensitive information (such as GitHub tokens) is securely stored using the macOS Keychain,<br>minimizing the risk of data breaches.</p><ol start="5"><li>Changes to This Privacy Policy</li></ol><p>We may update this Privacy Policy from time to time. Any changes will be effective upon<br>posting the new Privacy Policy on this page. You are advised to review this Privacy Policy<br>periodically for any changes.</p><ol start="6"><li>Contact Us</li></ol><p>If you have any questions about this Privacy Policy, please contact us:</p><ul><li>Email: <a href="mailto:sha2kyou@outlook.com">sha2kyou@outlook.com</a></li><li>GitHub Issues: <a href="https://github.com/sha2kyou/SideCalendar/issues">https://github.com/sha2kyou/SideCalendar/issues</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;SideCalendar Privacy Policy&lt;/p&gt;
+&lt;p&gt;This Privacy Policy describes how the SideCalendar application (“the App”) handles your&lt;br&gt;
+informatio</summary>
+      
+    
+    
+    
+    <category term="SideCalendar" scheme="https://tr1ck.cn/categories/SideCalendar/"/>
+    
+    
+    <category term="SideCalendar" scheme="https://tr1ck.cn/tags/SideCalendar/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SideCalendar 隐私政策</title>
+    <link href="https://tr1ck.cn/2025/08/25/privacy-zh/"/>
+    <id>https://tr1ck.cn/2025/08/25/privacy-zh/</id>
+    <published>2025-08-25T08:36:04.000Z</published>
+    <updated>2025-09-13T12:34:20.211Z</updated>
+    
+    <content type="html"><![CDATA[<p>SideCalendar 隐私政策</p><p>本隐私政策描述了 SideCalendar 应用程序（“本应用”）如何处理您的信息。SideCalendar 是一款 macOS<br>菜单栏应用程序，旨在通过侧边栏时间线展示来自不同来源（如日历、提醒事项、RSS、GitHub<br>Star）的事件和信息。</p><ol><li>数据收集与使用</li></ol><p>SideCalendar<br>的核心原则是保护您的隐私。本应用本身不收集、存储或向外部服务器传输任何个人用户数据。<br>所有数据处理和显示均在您的本地设备上进行。</p><ul><li>本地数据处理： 本应用主要在您的设备上本地处理和显示信息。这意味着您的事件、提醒事项、RSS<br>内容和 GitHub 数据不会被发送到 SideCalendar 的任何外部服务器。</li><li>系统日历与提醒事项集成： 本应用会本地访问您 macOS 系统日历和提醒事项中的数据，以便在应用内显<br>示。这些数据仅用于在您的设备上显示，不会被传输到外部。</li><li>RSS Feed 集成： 您提供的 RSS Feed URL 用于本地获取内容，并在应用内显示。SideCalendar<br>不会将任何 RSS Feed 数据发送到外部服务器。</li><li>GitHub 集成：<ul><li>如果您选择提供 GitHub 个人访问令牌，该令牌将安全地存储在您设备的本地钥匙串中，仅用于通过<br>GitHub API 访问您的 GitHub 数据。SideCalendar 不会向外部传输您的 GitHub 令牌。</li><li>从 GitHub API 获取的 GitHub 数据（包括 Star、Pull Request<br>和事件）仅在您的设备上本地处理和显示。这些数据不会存储在 SideCalendar<br>的服务器上，也不会传输到外部。</li></ul></li><li>用户设置： 您的应用偏好设置和配置（例如插件启用状态、刷新间隔、时间线位置等）均使用 macOS<br>系统的 UserDefaults 机制安全地存储在您的本地设备上。</li></ul><ol start="2"><li>第三方服务</li></ol><p>本应用与以下第三方服务集成，这些服务的隐私政策适用于其各自的数据处理行为：</p><ul><li>Apple 服务： 本应用利用 Apple 的系统服务，包括 macOS 日历、提醒事项、钥匙串和<br>UserDefaults。请参阅 Apple 的隐私政策以了解他们如何处理您的数据。</li><li>GitHub： 如果您使用 GitHub 集成功能，本应用将通过 GitHub API 访问您的 GitHub 数据。请参阅<br>GitHub 的隐私政策以了解他们如何处理您的数据。</li></ul><ol start="3"><li>数据保留</li></ol><p>所有由 SideCalendar 处理和显示的数据都保留在您的本地设备上，只要您安装了本应用并选择保留这些数<br>据。当您卸载本应用时，所有本地存储的数据和设置都将被移除。</p><ol start="4"><li>数据安全</li></ol><p>我们致力于保护您的信息安全。所有数据处理均在本地进行，敏感信息（如 GitHub 令牌）通过 macOS<br>钥匙串进行安全存储，以最大程度地减少数据泄露的风险。</p><ol start="5"><li>本隐私政策的变更</li></ol><p>我们可能会不时更新本隐私政策。任何更改都将通过在本页面发布新的隐私政策来生效。建议您定期查看本<br>隐私政策以了解任何更改。</p><ol start="6"><li>联系我们</li></ol><p>如果您对本隐私政策有任何疑问，请通过以下方式联系我们：</p><ul><li>电子邮件：sha2kyou@outlook.com</li><li>GitHub Issues：<a href="https://github.com/sha2kyou/SideCalendar/issues">https://github.com/sha2kyou/SideCalendar/issues</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;SideCalendar 隐私政策&lt;/p&gt;
+&lt;p&gt;本隐私政策描述了 SideCalendar 应用程序（“本应用”）如何处理您的信息。SideCalendar 是一款 macOS&lt;br&gt;
+菜单栏应用程序，旨在通过侧边栏时间线展示来自不同来源（如日历、提醒事项、RSS、Git</summary>
+      
+    
+    
+    
+    <category term="SideCalendar" scheme="https://tr1ck.cn/categories/SideCalendar/"/>
+    
+    
+    <category term="SideCalendar" scheme="https://tr1ck.cn/tags/SideCalendar/"/>
+    
+  </entry>
+  
+</feed>
