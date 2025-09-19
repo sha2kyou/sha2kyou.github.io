@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://sidecalendar.app/sitemap-index.xml
+Sitemap: https://tr1ck.cn/sitemap-index.xml
