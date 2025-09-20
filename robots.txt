@@ -1,4 +1,9 @@
 User-agent: *
-Disallow:
+Allow: /
 
+# Sitemaps
 Sitemap: https://tr1ck.cn/sitemap-index.xml
+
+# Disallow specific paths if needed
+# Disallow: /admin/
+# Disallow: /private/
