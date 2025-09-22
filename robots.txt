@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://tr1ck.cn/sitemap-index.xml
+Sitemap: https://sidefyapp.com/sitemap-index.xml
 
 # Disallow specific paths if needed
 # Disallow: /admin/
