@@ -1,17 +1,17 @@
 IF title CONTAINS_ANY ["keyword1", "keyword2", "keyword3"]
-  AND title NOT_CONTAINS_ANY ["keyword4", "keyword5"]
-  AND origin NOT_CONTAINS "BBC"
+  AND title NOT CONTAINS_ANY ["keyword4", "keyword5"]
+  AND origin NOT CONTAINS "BBC"
 THEN HIGHLIGHT ["keyword1", "keyword2", "keyword3"] WITH "#20fefe"
-SET COLOR = "#996633", SYMBOL = "star.fill";
+SET color = "#996633", symbol = "star.fill";
 
 IF title CONTAINS_ANY ["morning", "daily", "news"]
   OR origin CONTAINS_ANY ["Notification"]
   OR source CONTAINS_ANY ["reminders", "calendar"]
 THEN SET PINNED;
 
-IF titleOrContent CONTAINS_ANY ["country", "region"]
+IF anywhere CONTAINS_ANY ["country", "region"]
   AND source CONTAINS "RSS"
 THEN SET symbol = "star.fill";
 
 IF title CONTAINS_ANY ["person1", "person2", "company1"]
-THEN SET symbol = "theatermasks.fill"
+THEN SET symbol = "theatermasks.fill";
