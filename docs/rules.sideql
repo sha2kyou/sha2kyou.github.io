@@ -1,3 +1,5 @@
+# SideQL 1.7
+
 IF title CONTAINS_ANY ["keyword1", "keyword2", "keyword3"]
   AND title NOT CONTAINS_ANY ["keyword4", "keyword5"]
   AND origin NOT CONTAINS "BBC"
