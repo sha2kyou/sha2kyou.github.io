@@ -5,5 +5,5 @@ Allow: /
 Sitemap: https://sidefyapp.com/sitemap-index.xml
 
 # Disallow specific paths if needed
+# Disallow: /decapcms/
 # Disallow: /admin/
-# Disallow: /private/
